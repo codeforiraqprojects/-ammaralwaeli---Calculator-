@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <AnchorPane prefHeight="719.0" prefWidth="590.0">
+         <children>
+            <Label fx:id="Number" layoutX="14.0" layoutY="39.0" prefHeight="42.0" prefWidth="437.0" style="-fx-background-color: #94ddfc;" stylesheets="@application.css">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label fx:id="result" layoutX="14.0" layoutY="91.0" prefHeight="42.0" prefWidth="437.0" style="-fx-background-color: #c2efbf;">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Button layoutX="27.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="84.0" prefWidth="90.0" style="-fx-background-color: #ffffff; -fx-border-style: dashed;" text="7">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Button>
+            <Button layoutX="135.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="84.0" prefWidth="90.0" style="-fx-background-color: #ffffff; -fx-border-style: dashed;" text="8">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Button>
+            <Button layoutX="237.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="84.0" prefWidth="90.0" style="-fx-background-color: #ffffff; -fx-border-style: dashed;" text="9">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Button>
+            <Button layoutX="27.0" layoutY="346.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="84.0" prefWidth="90.0" style="-fx-background-color: #ffffff; -fx-border-style: dashed;" text="4">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Button>
+            <Button layoutX="135.0" layoutY="346.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="84.0" prefWidth="90.0" style="-fx-background-color: #ffffff; -fx-border-style: dashed;" text="5">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Button>
+            <Button layoutX="237.0" layoutY="346.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="84.0" prefWidth="90.0" style="-fx-background-color: #ffffff; -fx-border-style: dashed;" text="6">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Button>
+            <Button layoutX="27.0" layoutY="446.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="84.0" prefWidth="90.0" style="-fx-background-color: #ffffff; -fx-border-style: dashed;" text="1">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Button>
+            <Button layoutX="135.0" layoutY="446.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="84.0" prefWidth="90.0" style="-fx-background-color: #ffffff; -fx-border-style: dashed;" text="2">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Button>
+            <Button layoutX="237.0" layoutY="446.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="84.0" prefWidth="90.0" style="-fx-background-color: #ffffff; -fx-border-style: dashed;" text="3">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Button>
+            <Button layoutX="27.0" layoutY="542.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="84.0" prefWidth="90.0" style="-fx-background-color: #ffffff; -fx-border-style: dashed;" text="0">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Button>
+            <Button layoutX="135.0" layoutY="542.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="84.0" prefWidth="90.0" style="-fx-background-color: #c6a5ff; -fx-border-style: doted; -fx-border-color: #FFFFFF;" text=".">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Button>
+            <Button fx:id="equal" layoutX="237.0" layoutY="542.0" mnemonicParsing="false" onAction="#clickResult" prefHeight="84.0" prefWidth="90.0" style="-fx-background-color: #c6a5ff; -fx-border-style: doted; -fx-border-color: #FFFFFF;" text="=">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Button>
+            <Button layoutX="348.0" layoutY="398.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="71.0" prefWidth="90.0" style="-fx-background-color: #c6a5ff; -fx-border-style: doted; -fx-border-color: #FFFFFF;" text="*">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button layoutX="348.0" layoutY="479.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="71.0" prefWidth="90.0" style="-fx-background-color: #c6a5ff; -fx-border-style: doted; -fx-border-color: #FFFFFF;" text="-">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button layoutX="348.0" layoutY="558.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="71.0" prefWidth="90.0" style="-fx-background-color: #c6a5ff; -fx-border-style: doted; -fx-border-color: #FFFFFF;" text="+">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button layoutX="348.0" layoutY="319.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="71.0" prefWidth="90.0" style="-fx-background-color: #c6a5ff; -fx-border-style: doted; -fx-border-color: #FFFFFF;" text="/">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button layoutX="348.0" layoutY="245.0" mnemonicParsing="false" onAction="#clickClear" prefHeight="65.0" prefWidth="90.0" style="-fx-background-color: #36186b; -fx-border-style: doted; -fx-border-color: #FFFFFF;" text="clear" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="348.0" layoutY="210.0" mnemonicParsing="false" onAction="#clickBack" prefHeight="15.0" prefWidth="90.0" style="-fx-background-color: #36186b;" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button layoutX="234.0" layoutY="168.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="67.0" prefWidth="90.0" style="-fx-background-color: #ffffff; -fx-border-style: dashed;" text=")">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+            <Button layoutX="132.0" layoutY="168.0" mnemonicParsing="false" onAction="#clickButton" prefHeight="67.0" prefWidth="97.0" style="-fx-background-color: #ffffff; -fx-border-style: dashed;" text="(">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
